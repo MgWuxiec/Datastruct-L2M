@@ -1,6 +1,10 @@
 #include <iostream>
+#include <vector>
+#include "src/Merger.h"
+#include "src/Node.hpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Mg::Node<int> node(1);
+    std::cout << node.getValue() << std::endl;
     return 0;
 }
