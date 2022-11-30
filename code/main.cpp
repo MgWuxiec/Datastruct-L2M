@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#include "src/Merger.h"
 #include "src/Node.hpp"
 
 int main() {
